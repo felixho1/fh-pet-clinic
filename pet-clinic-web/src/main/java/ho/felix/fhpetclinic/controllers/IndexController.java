@@ -1,4 +1,4 @@
-package ho.felix.fhpetclinic.controller;
+package ho.felix.fhpetclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
