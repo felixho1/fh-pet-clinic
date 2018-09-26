@@ -41,6 +41,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
+                    <!--
+                    Repackage Documentation
+                    https://docs.spring.io/spring-boot/docs/current/maven-plugin/repackage-mojo.html
+                    -->
                     <execution>
                         <goals>
                             <goal>repackage</goal>
