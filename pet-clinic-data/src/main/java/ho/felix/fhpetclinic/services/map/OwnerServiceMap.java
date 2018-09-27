@@ -9,11 +9,6 @@ import java.util.stream.Collectors;
 
 @Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
-    @Override
-    public Owner save(Owner object) {
-        map.put(object.getId(), object);
-        return object;
-    }
 
     @Override
     public Set<Owner> findByLastName(String lastName) {
