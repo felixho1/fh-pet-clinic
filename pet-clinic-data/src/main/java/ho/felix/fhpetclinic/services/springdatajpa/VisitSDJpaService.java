@@ -12,7 +12,7 @@ import java.util.Set;
 @Service
 @Profile("springdatajpa")
 public class VisitSDJpaService implements VisitService {
-    private VisitRepository visitRepository;
+    private final VisitRepository visitRepository;
 
     public VisitSDJpaService(VisitRepository visitRepository) {
         this.visitRepository = visitRepository;
